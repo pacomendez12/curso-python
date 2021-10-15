@@ -55,6 +55,7 @@ carros = ['bMw', "subaru", 'audi', 'toyota']
 """Calcular el costo del ticket en selva magica"""
 edad = 2
 
+# El siguiente codigo no funciona
 if edad < 4:
     costo = 0
 if edad < 18:
