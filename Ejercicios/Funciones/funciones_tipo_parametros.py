@@ -22,3 +22,6 @@ print(valor)
 print(lista)
 
 
+genera_numeros_primos(1500, 10000)
+genera_numeros_primos(8, 200)
+
