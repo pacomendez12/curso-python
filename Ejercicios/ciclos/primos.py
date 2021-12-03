@@ -1,15 +1,13 @@
+"""Genera los numeros primos entre el 2 y el 1000 e imprime la lista"""
 
-def es_primo(x):
+res = []
+for x in range(2, 1001):
+    es_primo = True
     for divisor in range(2, x):
         if x % divisor == 0:
-            return False
-    return True
+            es_primo = False
+    
+    if es_primo:
+        res.append(x)
 
-def genera_primos(n):
-    res = []
-    for x in range(2, n + 1):
-        if es_primo(x):
-            res.append(x)
-    return res
-
-print(genera_primos(1000))
+print(res)
