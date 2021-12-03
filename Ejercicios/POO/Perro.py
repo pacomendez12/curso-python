@@ -37,6 +37,9 @@ class Perro:
     def escribe_nombre(self, nombre):
         if nombre != None:
             self.nombre = nombre
+    
+    def dame_edad(self):
+        return self.edad
 
     
 
