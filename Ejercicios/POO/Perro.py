@@ -64,4 +64,3 @@ for i in range(5):
 print(mi_segundo_perro.numero_de_juegos_restantes)
 
 #mi_primer_perro.saludar_a_otro_perro(mi_segundo_perro)
-
